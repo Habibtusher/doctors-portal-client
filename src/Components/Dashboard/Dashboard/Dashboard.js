@@ -20,7 +20,7 @@ const Dashboard = () => {
     }
     useEffect(()=> {
     
-        fetch('http://localhost:5000/appointmentsByDate', {
+        fetch('http://sleepy-retreat-29462.herokuapp.com/appointmentsByDate', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

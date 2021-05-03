@@ -30,7 +30,7 @@ const AddDoctor = () => {
             email: data.email,
             imageURL: imageUrl
         };
-        const url = `http://localhost:5000/addADoctor`
+        const url = `http://sleepy-retreat-29462.herokuapp.com/addADoctor`
 
 
         fetch(url, {
